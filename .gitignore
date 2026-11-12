@@ -1,0 +1,26 @@
+# Dependencias y compilación
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Variables de entorno reales y secretos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs y sistema operativo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IMPORTANTE: Carpeta de documentación de avances en formato .docx
+# Esta carpeta NUNCA debe vincularse ni subirse a GitHub (siempre 100% local)
+documentacion_avances_local/
+*.docx
+~$*.docx
